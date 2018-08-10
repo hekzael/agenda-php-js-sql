@@ -1,0 +1,29 @@
+.fondo{
+    background: url("imagen/jutos.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.my-imagen{
+    margin-top: -50px;
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.carousel-control-next{
+    border : blue;
+}
+#modal_agregar.hide{
+    opacity: 0;
+}
+.errores{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    display: none;
+    margin-top: -32px;
+    margin-left: 150px;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
